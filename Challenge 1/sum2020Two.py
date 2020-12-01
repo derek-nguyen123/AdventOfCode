@@ -23,6 +23,6 @@ def sum2020(nums, target):
     
 inputFile = open("input.txt", "r")
 inputLines = inputFile.read().splitlines()
-print(type(inputLines))
+inputFile.close()
 result = sum2020(inputLines, 2020)
 print(result)

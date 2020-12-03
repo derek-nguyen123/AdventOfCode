@@ -3,7 +3,7 @@ def validPasswords(policies):
     :type policies = List[List[str], str, str]
     :rtype: int
     """
-    # Count the numbeer of valid passwords
+    # Count the number of valid passwords
     numValid = 0
     # Iterate through all password policies
     for policy in policies:

@@ -25,6 +25,7 @@ def howManyTrees(lines, right, down):
 file = open("input.txt", "r")
 lines = file.read().splitlines()
 slopes = [(1, 1), (3, 1), (5, 1), (7, 1), (1, 2)]
+file.close()
 result = 1
 for (right, down) in slopes:
     result = result * howManyTrees(lines, right, down)

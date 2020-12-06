@@ -2,7 +2,7 @@ import re
 
 def validPassports(passports):
     """
-    :type: passports = List[str]
+    :type passports = List[str]
     :rtype: int
     """
     # Count the number of valid passports encountered

@@ -23,5 +23,6 @@ def countYes(groups):
 
 file = open("input.txt", "r")
 groups = file.read()
+file.close()
 groups = groups.split("\n\n")
 print(countYes(groups))
